@@ -1,6 +1,7 @@
 # _*_ coding:utf-8 _*_
 #Twitter Re-Tweeter Bot
 import tweepy, time, sys, codecs, smtplib
+from keys import keys
 # argfile = str(sys.argv[1])
 ###############################################################
 fromaddr = 'arnad33m@gmail.com'
@@ -34,8 +35,8 @@ print("Logging in .... \n")
 #######################################################################################################################################
 CONSUMER_KEY = keys['c_k']
 CONSUMER_SECRET = keys['c_s']
-ACCESS_TOKEN = keys['a_t']
-ACCESS_TOKEN_SECRET = keys['a_s']
+ACCESS_KEY = keys['a_t']
+ACCESS_SECRET = keys['a_s']
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth)
