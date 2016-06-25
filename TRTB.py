@@ -32,10 +32,10 @@ spam=int(input("Input the number of the variable spam (250 if you dont know) : \
 
 print("Logging in .... \n")
 #######################################################################################################################################
-CONSUMER_KEY = keys['CONSUMER_KEY']
-CONSUMER_SECRET = keys['CONSUMER_SECRET']
-ACCESS_TOKEN = keys['ACCESS_TOKEN']
-ACCESS_TOKEN_SECRET = keys['ACCESS_TOKEN_SECRET']
+CONSUMER_KEY = keys['c_k']
+CONSUMER_SECRET = keys['c_s']
+ACCESS_TOKEN = keys['a_t']
+ACCESS_TOKEN_SECRET = keys['a_s']
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth)
