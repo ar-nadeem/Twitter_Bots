@@ -10,7 +10,7 @@ Mark Bramwell, July 2010
 
 // select the pins used on the LCD panel
 LiquidCrystal lcd(8, 9, 4, 5, 6, 7);
-String x = ("dfssdfsdfsdf ")  ;    
+String x = ("NONE")  ;    
 // define some values used by the panel and buttons
 int lcd_key     = 0;
 int serial      = 0;
@@ -42,8 +42,6 @@ void setup()
  lcd.setCursor(0,0);
  lcd.print("Raspberry PI");
  Serial.begin(9600);
- Serial.println("S0");
-
 }
 char rec;
 void loop(){
@@ -63,19 +61,20 @@ void loop(){
     }
     
   }
-   
+  /* 
   if (adc_key_in < 380){
    Serial.println("S1");
-   x="S1" 
+   x="S1" ;
   }
   if (adc_key_in < 195){
     Serial.println("S2");
-    x="S2" 
+    x="S2" ;
   }
 
   if (adc_key_in >1000){
     
   Serial.println(x); 
   } 
+  */
 }
 
