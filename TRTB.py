@@ -6,8 +6,8 @@ from keys import keys
 ###############################################################
 fromaddr = 'arnad33m@gmail.com'
 toaddrs  = 'xspidera777@gmail.com'
-username = 'arnad33m@gmail.com'
-password = '1234Qwerasdfzxc'
+username = 'email@email.com'
+password = 'password'
 server = smtplib.SMTP('smtp.gmail.com:587')
 msg = "\r\n".join([
 		   "From: arnad33m@gmail.com",
