@@ -6,7 +6,7 @@ spam=250
 fromaddr = 'arnad33m@gmail.com'
 toaddrs	 = 'xspidera777@gmail.com'
 username = 'arnad33m@gmail.com'
-password = '1234Qwerasdfzxc'
+password = '*******'
 server = smtplib.SMTP('smtp.gmail.com:587')
 msg = "\r\n".join([
 		   "From: arnad33m@gmail.com",
