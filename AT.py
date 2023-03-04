@@ -6,10 +6,10 @@ time.sleep(2)
 
 print("Logging in .... \n")
 #######################################################################################################################################
-CONSUMER_KEY = ('yModro0JDLIi4ovEuqA5XPdGd')
-CONSUMER_SECRET = 'tF7CxFoUjkvVSlfSyGAvjtdyiYxAlr9hJqynaE5QKWYySOFbrO'
-ACCESS_KEY = '745986163417165824-YcQ19Dt8wp9uRLnfyl6i1JQZ2wz90Ay'
-ACCESS_SECRET = 'PYU6ObO5Y3m0zy2EzHvkX1mLs5AwK5aPPTUHq95KgjNQ5'
+CONSUMER_KEY = ('*')
+CONSUMER_SECRET = '*'
+ACCESS_KEY = '*-*'
+ACCESS_SECRET = '*'
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth)
